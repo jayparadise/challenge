@@ -1,0 +1,139 @@
+/* Import other stylesheets
+-----------------------------------------------------------------------------*/
+
+/* @import url("otherstylesheet.css"); */
+
+
+/* Remove margin, padding and border from everything
+-----------------------------------------------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Styles for layout
+-----------------------------------------------------------------------------*/
+
+.clear {
+	clear:both;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+/* Set up the document
+-----------------------------------------------------------------------------*/
+
+body {
+	font-size: 1.5;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(51, 51, 51, 1);
+}
+
+#wrapper { 
+	width: auto;
+	text-align:left;
+	margin: 25px auto;
+	background-color: #FFFFFF;
+	border: 1px solid blue;
+}
+
+
+/* Typography
+-----------------------------------------------------------------------------*/
+
+h1 {
+	font-size: 3.0em; /* Equivalent to 22pt */
+}
+	
+h2 {
+	font-size: 2.0em; /* Equivalent to 20pt */
+}
+	
+h3 {
+	font-size: 1.8em; /* Equivalent to 18pt */
+}
+	
+h4 {
+	font-size: 1.6em; /* Equivalent to 16pt */
+}
+	
+h5 {
+	font-size: 1.4em; /* Equivalent to 14pt */
+}
+	
+p, q, cite {
+	font-size: 1.2em; /* Equivalent to 12pt */
+	font-family: sans-serif;
+	line-height: 1.4;
+}
+
+ul, ol, dl {
+	list-style: none;
+	font-size: 1.2em; /* Equivalent to 12pt */
+}
+
+li, dd, dt {
+	font-size: 1.2em; /* Equivalent to 12pt */	
+}
+
+
+
+/* Text Section
+-----------------------------------------------------------------------------*/
+.offer {
+	text-align: center;
+	margin: 20px auto;
+}
+
+.question {
+	margin: 0 0 20px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.orange {
+	color: orange;
+}
+
+.blue {
+	color: blue;
+}
+
+.green {
+	color: green;
+}
+/* Door Section
+-----------------------------------------------------------------------------*/
+
+.doors {
+	text-align: center;
+
+}
+.doors img {
+	margin: 0 auto;
+	padding: 20px 25px 0;
+}
+
+.play_again {
+	display: block;
+	font-size: 28px;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+

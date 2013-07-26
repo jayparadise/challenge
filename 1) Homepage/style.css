@@ -1,0 +1,132 @@
+/* Import other stylesheets
+-----------------------------------------------------------------------------*/
+
+/* @import url("otherstylesheet.css"); */
+
+
+/* Remove margin, padding and border from everything
+-----------------------------------------------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Styles for layout
+-----------------------------------------------------------------------------*/
+
+.clear {
+	clear:both;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+/* Set up the document
+-----------------------------------------------------------------------------*/
+
+body {
+	font-size: 1.5;
+	font-family: 'Open Sans', sans-serif;
+	color: rgba(80, 80, 80, 1);
+}
+
+#wrapper { 
+	width: auto;
+	text-align:left;
+	margin: 0 50px;
+	background-color: #FFFFFF;
+}
+
+
+/* Typography
+-----------------------------------------------------------------------------*/
+
+h1 {
+	font-size: 2.2em; /* Equivalent to 22pt */
+}
+	
+h2 {
+	font-size: 2.0em; /* Equivalent to 20pt */
+}
+	
+h3 {
+	font-size: 1.8em; /* Equivalent to 18pt */
+}
+	
+h4 {
+	font-size: 1.6em; /* Equivalent to 16pt */
+}
+	
+h5 {
+	font-size: 1.4em; /* Equivalent to 14pt */
+}
+	
+p, q, cite {
+	font-size: 1.2em; /* Equivalent to 12pt */
+}
+
+ul, ol, dl {
+	list-style: none;
+	font-size: 1.2em; /* Equivalent to 12pt */
+}
+
+li, dd, dt {
+	font-size: 1.2em; /* Equivalent to 12pt */	
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+header {
+	margin: 25px 0;
+}
+
+header h4 {
+	font-weight: 300;
+}
+
+#header_title {
+	color: rgba(202, 53, 44, 1);
+}
+
+#header_subtitle {
+	margin-right: 50%;
+}
+
+/* Featured Box
+-----------------------------------------------------------------------------*/
+
+.today_website {
+	border-top: 1px solid gray; 
+	border-bottom: 1px solid gray;
+	margin: 50px 0 25px 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.featured_site {
+	padding: 10px 0 0 0;
+}
+
+/* Site List
+-----------------------------------------------------------------------------*/
+.website_list {
+	padding: 0 0 25px 0;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+	font-size: 12px;
+	position: fixed;
+	bottom: 0;
+
+}

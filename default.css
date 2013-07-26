@@ -1,0 +1,121 @@
+/* Import other stylesheets
+-----------------------------------------------------------------------------*/
+
+/* @import url("otherstylesheet.css"); */
+
+
+/* Remove margin, padding and border from everything
+-----------------------------------------------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Styles for layout
+-----------------------------------------------------------------------------*/
+
+.clear {
+	clear:both;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+/* Set up the document
+-----------------------------------------------------------------------------*/
+
+body {
+	font-size: 1.5;
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;	
+}
+
+#wrapper { 
+	width: auto;
+	text-align:left;
+	margin: 25px auto;
+	background-color: #FFFFFF;
+	border: 1px solid blue;
+}
+
+
+/* Typography
+-----------------------------------------------------------------------------*/
+
+h1 {
+	font-size: 2.2em; /* Equivalent to 22pt */
+}
+	
+h2 {
+	font-size: 2.0em; /* Equivalent to 20pt */
+}
+	
+h3 {
+	font-size: 1.8em; /* Equivalent to 18pt */
+}
+	
+h4 {
+	font-size: 1.6em; /* Equivalent to 16pt */
+}
+	
+h5 {
+	font-size: 1.4em; /* Equivalent to 14pt */
+}
+	
+p, q, cite {
+	font-size: 1.2em; /* Equivalent to 12pt */
+}
+
+ul, ol, dl {
+	list-style: none;
+	font-size: 1.2em; /* Equivalent to 12pt */
+}
+
+li, dd, dt {
+	font-size: 1.2em; /* Equivalent to 12pt */	
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+
+
+/* Navigation
+-----------------------------------------------------------------------------*/
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+
+
+/* Forms
+-----------------------------------------------------------------------------*/
+
+input.text {
+	padding: 3px;
+	border: 1px solid #999999;	
+}
+
+
+/* Tables 
+-----------------------------------------------------------------------------*/
+
+table { 
+  	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+td {
+  	text-align: left;
+	font-weight: normal;
+}
+
