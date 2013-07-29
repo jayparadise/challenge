@@ -1,0 +1,38 @@
+
+body {
+	padding: 20px 20px 0 50px;
+	background-color: rgba(251, 247, 242, 1);
+	height: 1555px;
+}
+
+.home {
+	display: block;
+	text-align: right;
+	font-size: 20px;
+	margin: 0 0 100px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.scroll {
+	color: rgba(219, 219, 219, 1);
+	font-size: 18px;
+	letter-spacing: 14px;
+	margin-bottom: 40px;
+}
+
+.message {
+	font-size: 24px;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.first {
+	position: fixed;
+}
+
+.second {
+	position: absolute;
+	top: 1000px;
+}
