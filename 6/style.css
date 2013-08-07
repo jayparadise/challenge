@@ -1,0 +1,27 @@
+body {
+  background-color: rgba(23, 23, 20, 1)
+}
+
+.container {
+  margin: 100px auto;
+  background-color: rgba(88, 88, 88, 1);
+  width: 500px;
+}
+
+.square {
+  float: left;
+  padding: 50px;
+}
+
+.clear {
+  clear:both;
+}
+
+.home {
+  text-align: center;
+  font-size: 28px;
+}
+
+.home a {
+  text-decoration: none;
+}
