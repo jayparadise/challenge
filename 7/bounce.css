@@ -1,0 +1,40 @@
+body,html {
+	background-color: rgba(236, 236, 236, 1);
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+}
+.container {
+	margin: auto;
+	background-color: white;
+	width: 50%;
+	height: 92%;
+	padding-top: 20px;
+}
+
+.directions {
+	float: left;
+	height: 100%;
+	padding: 0 20px;
+	width: 40%;
+	color: rgba(39, 57, 100, 1);
+}
+
+.bounce_zone {
+	height: 100%;
+	text-align: center;
+}
+
+.footer {
+	background-color: rgba(159, 159, 159, 1);
+	font-size: 20px;
+	padding: 1% 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.clear {
+	clear: both;
+}
